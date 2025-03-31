@@ -1,0 +1,49 @@
+
+\t\t\t\t
+-
+. | . | .
+./files/badperm.txt
+'
+""
+"""
+""e"'c'ho 't'"a"ta"to"'t'o"
+"e"'c'ho 't'"a"ta"to"'t'o
+/
+/.
+/./../../../../..
+//
+///////
+<
+<<
+<<<<<
+<<<<<<<<<<<<<<<<
+<>
+>
+> > > >
+>>
+>> >> >> >>
+>>>> >> >> >>
+>>>>>
+>>>>>>>>>>>>>>>
+>>|><
+|
+| | |
+| $
+| tata
+cat    <| ls
+cat <<
+cat >>
+cat >> <<
+cat >> > >> << >>
+cat >>>
+echo 'tata
+echo > <
+echo hi |   |
+echo hi | < |
+echo hi | >
+echo hi | > >>
+echo tata < < toto
+echo tata <<<<< toto
+echo tata > > toto
+echo tata >>> toto
+tata'

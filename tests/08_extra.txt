@@ -1,0 +1,17 @@
+# syntax
+:
+!
+echo \$HOME
+echo $9HOME
+4ABC=tata
+ABC=tata
+echo $USER$var\$USER$USER\$USERtest$USER
+echo $UID
+echo $UID$HOME
+history
+echo tata <<< toto
+env | sort | grep -v SHLVL | grep -v ^_
+echo '$'$
+echo $'$'
+export tata=bon&jour
+unset TAT;A

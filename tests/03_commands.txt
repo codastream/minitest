@@ -1,0 +1,35 @@
+.
+..
+../Makefile
+"tata"
+/bin/ls
+/bin/ls -l
+/bin/ls -l -a
+/bin/ls -l -a -t
+/bin/ls -la
+cat
+cat -e tata
+cat -wrongopt
+cat ./files/infile.txt
+echo 'Hello World'
+echo "Hello World"
+expr $? + $?
+expr 1 + 1
+printf "Hello World"
+pwd
+pwd -- p
+pwd ---p
+pwd --p
+pwd -p
+pwd ./tata
+pwd ls
+pwd ls env
+pwd pwd pwd
+pwd tata
+pwd tata toto tutu
+tata
+tata toto tutu
+wrongcmd
+./missing.out
+files
+./dsadsa

@@ -1,0 +1,8 @@
+echo 'tata' | > ./files/outfile.txt
+echo 'tata' | >> ./files/outfile.txt
+echo tata > ./files/outfile.txt | echo b >> ./files/outfile.txt
+printf "$USER$USER'' = ' $L ANG '"
+"pr'int'f" ""$'USER'"bj'r'"
+"printf" ""$USER"bj'r'"
+printf "=  PATH    "  't$USER  ' ""
+pri"tf $USER"

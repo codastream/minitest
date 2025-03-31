@@ -1,0 +1,112 @@
+/bin/ls | /usr/bin/cat -e
+|echo -n tata
+|echo|
+cat ./files/infile | cat /dev/urandom | ls | wc -w
+cat ./files/infile | grep -o pain | tr
+cat ./files/infile | grep pain
+cat ./files/infile | md5sum
+cat ./files/infile | wc
+cat /dev/urandom | head -c 15 | wc -c
+cat /dev/urandom | strings | grep -o "[A-Z][0-9]" | tr -d '\n' | head -c 15 | wc -c
+cat | cat | cat | ls
+cat Makefile | cat -e | cat -e
+cat Makefile | grep pr | head -n 5 | cd file_not_exist
+cat Makefile | grep pr | head -n 5 | hello
+cat Makefile | grep srcs | cat -e
+cat Makefile | grep srcs | grep srcs | cat -e
+cd .. | echo "tata"
+cd .. | pwd
+cd / | echo "tata"
+echo           | cat -e
+echo         hello        |               cat -e
+echo ' $ ' | cat -e
+echo "         " | cat -e
+echo " $ " | cat -e
+echo "cat Makefile | cat > $USER"
+echo "Hello World" | cat -e
+echo | echo
+echo $:$= | cat -e
+echo $? | echo $? | echo $?
+echo a | wc
+echo hello      |cat -e
+echo hello|               cat -e
+echo hello|cat -e
+echo tata | cat
+echo tata | cat -e
+echo tata | cat -e | cat -e | cat -e
+echo tata | cat | cat | cat | cat | cat | grep tata
+echo tata | echo toto | echo tutu | grep tata
+echo tata | echo toto | echo tutu | grep toto
+echo tata | echo toto | echo tutu | grep tutu
+echo tata | echo toto tutu
+echo tata |cat
+echo tata| cat
+echo tata|cat
+echo test.c | cat -e| cat -e| cat -e| cat -e| cat -e| cat -e| cat -e| cat -e|cat -e|cat -e|cat -e
+env | echo tata
+env|"wc "-l
+env|"wc" -l
+exit | ls
+exit | sleep 2
+export tata | unset tata | echo $?
+ifconfig | grep ":"
+ifconfig | grep tata
+ls -l | cat -e  | ls
+ls -la | grep "."
+ls -la | grep "'.'"
+ls | exit
+ls | exit 42
+ls | ls | echo tata | rev
+ls | ls | tata
+ls | ls | tata | rev
+ls | ls |ls | ls| ls |ls| ls|ls | ls | ls | ls | ls
+ls | ls tata
+ls | tata
+ls | tata | ls
+ls tata
+ls|ls|ls|ls|ls|ls|cat    -e
+ls|ls|ls|ls|ls|ls|ls|ls |ls | ls    | ls | ls | cat    -e
+"ls|ls|ls|ls|ls|ls|ls|ls|ls|ls|ls|ls
+|ls|ls|ls|ls|ls|ls|ls|ls|ls|ls|ls|ls|ls|ls|ls|ls"
+printf "Hello World" | cat -e | cat -e
+pwd | echo tata
+sleep 1 | exit
+sleep 1 | sleep 1
+time sleep 1 | sleep 1
+unset tata | cat -e
+whoami | grep $USER
+wrongcmd | cat
+cat ./files/infile_big | grep oi
+cat minishell.h | grep ");"$
+export GHOST=123 | env | grep GHOST
+ls | ls
+ls | 				ls
+ls 					| ls
+ls 				| 				ls
+ls             			|               					ls
+ls | echo $PATH
+ls | echo $USER
+ls | echo "$USER"
+ls | echo "'$USER'"
+ls | echo '"'$USER'"'
+ls | echo ""$USER""
+ls | echo ''$USER''
+ls | echo '"$USER"'
+ls | echo $PATH | cat
+ls | echo $USER | cat
+ls | echo "$USER" | cat
+ls | echo "'$USER'" | cat
+ls | echo '"'$USER'"' | cat
+ls | echo ""$USER"" | cat
+ls | echo ''$USER'' | cat
+ls | echo '"$USER"' | cat
+echo $PATH | cat
+echo $USER | cat
+echo "$USER" | cat
+echo "'$USER'" | cat
+echo '"'$USER'"' | cat
+echo ""$USER"" | cat
+echo ''$USER'' | cat
+echo '"$USER"' | cat
+export test="echo b" | $test
+echo hi |  "|"

@@ -1,0 +1,74 @@
+echo $'42$'
+?$HOME
+"$HOMEdskjhfkdshfsd"
+$
+$?
+$?$?
+$EMPTY
+$HOME
+$HOMEdskjhfkdshfsd
+$HOMEdskjhfkdshfsd'
+$LESS$VAR
+$PWD
+echo -nnnn $tata
+echo '' $HOME
+echo ''$HOME
+echo '$'''
+echo '$HO''ME'
+echo '$HO'ME
+echo "'$HO''ME'"
+echo "" $HOME
+echo ""$HOME
+echo "$"""
+echo "$"HOME
+echo "$EMPTY" "Makefile"
+echo "$EMPTY""Makefile"
+echo "$EMPTY"Makefile
+echo $EMPTY    var
+echo "$HO""ME"
+echo "$HO"ME
+echo $
+echo $?
+echo $?$
+echo $''HOME
+echo $'HO''ME'
+echo $'HOME'
+echo $'tata'
+echo $""
+echo ""$""""
+echo """$"""
+echo ""tata$""
+echo "$USER'"$USER"'"
+echo '"$USER'$USER'"tata'
+echo $""HOME
+echo $"HO""ME"
+echo $"HOME"
+echo $"tata"
+echo $=HOME
+echo $EMPTY tata
+echo $HOME
+echo $HOME%
+echo $HOME9
+echo Le path de mon HOME est $HOME
+echo my terminal is [$TERM]
+echo my terminal is [$TERM4
+echo my terminal is [$TERM4]
+./$PATH
+"./$PATH"
+'./$PATH'
+./$USER
+"./$USER"
+./'$USER'
+echo "xd" $USER "$USER" '''"'$USER'"'
+echo $'42$'
+echo $'42$x'
+echo a$'42$'
+echo a$'42$x'
+echo $'HOME'$USER
+echo $'HOM'E$USER
+echo "$"$
+echo "$"$""
+echo "$"$"$"
+echo "$USER$"
+echo $ USER
+echo "$USER $"

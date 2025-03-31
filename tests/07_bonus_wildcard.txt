@@ -1,0 +1,12 @@
+cd *h
+m
+echo *
+echo '*'
+echo *t
+echo *t tata
+echo *Z
+echo D*
+echo tata*tata *
+echo $tata*
+echo $*
+echo $HOME*

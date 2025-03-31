@@ -1,0 +1,259 @@
+.echo.
+""''echo tata""'''' toto""'' tutu""''
+/bin/cd Desktop
+/bin/echo
+/bin/echo tata toto tutu
+< Makefile .
+<echo<
+>>echo>>
+>echo>
+cd
+cd _
+cd -
+cd --
+cd ---
+cd .
+cd . tata
+cd ..
+cd ../
+cd ../.
+cd ../..
+cd ../../../../../../..
+cd .././../.././../bin/ls
+cd .././././.
+cd ../minishell
+cd ./
+cd ./././.
+cd ././././
+cd '/'
+"cd '//'
+pwd"
+cd '/etc'
+cd '$PWD/srcs'
+cd 'srcs'
+cd ".."
+cd "../.."
+cd ""
+cd "$PWD/srcs"
+cd "srcs"
+cd /
+"cd //
+pwd"
+cd /e'tc'
+cd /e"tc"
+cd /libft/srcs
+cd /minishell
+cd /wrongdir
+cd ~
+cd ~/
+cd $HOME
+cd $HOME $HOME
+cd $HOME/42_works
+cd Makefile
+cd minishell Docs crashtest.c
+cd sr
+cd srcs
+cd srcs objs
+e'cho tata'
+e"cho tata"
+ech|o tata | cat
+echo
+echo         tata
+echo    tata     toto    tutu
+echo --------n
+echo -n
+echo -n -n
+echo -n -n tata toto
+echo -n -nnn -nnnn
+echo -n -nnn tata -nnnn
+echo -n -nnn-nnnn
+echo -n "tata"
+echo -n tata
+echo -n-nnn -nnnn
+echo -nnn --------n
+echo -nnn --------nnnn
+echo -nnn -----nn---nnnn
+echo -nnnnn
+echo -ntata
+echo -p
+echo '        '
+echo '    '
+echo ' '
+echo ''
+echo '''ta"''''t"a'''
+echo ''t'a'ta''
+echo ''tata''
+echo '"tata"'
+echo 'tata "'
+echo 'tata'
+echo "        "
+echo "    "
+echo " "
+echo "-n" tata
+echo "''t'a'ta''"
+echo "'"t'a'ta"'"
+echo "'tata'"
+echo '" tata "'
+echo ""             tata
+echo "" tata
+echo ""tata
+echo "> >> < << * ? [ ] | ; || && ( ) # $ "
+echo "tata     " | cat -e
+echo "tata '"
+echo "tata"
+echo > <
+echo | |
+echo tata
+echo tata -n
+"echo tata > bonjour\ 1
+cat bonjour\ 1"
+echo tata toto
+echo tata toto tutu
+echo tata''''''''''''
+echo tata'""""""""""'
+echo tata'toto'
+echo tata"''''''''''"
+echo tata""""""""""""
+echo tata""toto
+echo tata""toto"
+echo-ntata
+echo"'tata'"
+echotata
+EechoE
+exit
+exit ------0
+exit --666
+exit -'666'"666"666
+exit -0
+exit -0000042
+exit -1
+exit -259
+exit -4
+exit -42
+exit -666
+exit -666 666
+exit -69 -96
+exit -9223372036854775808
+exit -9223372036854775809
+exit '----666'
+exit '-666'
+exit '"666"'
+exit '++++666'
+exit '+666'
+exit '2'66'32'
+exit '6'66
+exit '666'
+exit '666'"666"666
+exit "-100"
+exit "'666'"
+exit "+100"
+exit "666"
+exit "tata"
+exit +'666'"666"666
+exit ++++++0
+exit ++++666
+exit +0
+exit +100
+exit +42
+exit +666
+exit 0
+exit 000042
+exit 123
+exit 123 124
+exit 258
+exit 259
+exit 42
+exit 666
+exit 666 666
+exit 666 666 666 666
+exit 666 tata 666
+exit 9223372036854775807
+exit 9223372036854775808
+exit exit
+exit tata
+exit tata 666
+exit tata 666 666
+exit tata que tal
+export --tata=bonjour
+export -tata=bonjour
+export ?=2
+export ''=''
+export '='='='
+export ""
+export ""=""
+export "="="="
+export %
+export +tata=bonjour
+export =
+export | echo tata
+export $?
+export 123
+export 123=124
+export 9tata=
+export HO-LA=bonjour
+export HO!LA=bonjour
+export HO@LA=bonjour
+export HO*LA=bonjour
+export HO#LA=bonjour
+export HOL.A=bonjour
+export HOL{A=bonjour
+export HOL}A=bonjour
+export HOL@=bonjour
+export HOL\\\$A=bonjour
+export HOL\~A=bonjour
+export HOL+A=bonjour
+export M@VAR=123
+export mavar
+export MAVAR-="tata"
+export MAVAR="tata"
+export MAVAR=123
+export tata = bonjour
+export tata =bonjour
+export tata-=bonjour
+export tata=bonjour | cat -e | cat -e
+unset
+unset _______
+unset _tata
+unset -tata
+unset ""
+unset ++++++
+unset =
+unset ======
+unset $HOME
+unset $PWD
+unset $tata
+unset 9tata
+unset cd
+unset echo
+unset export
+unset HOME
+unset HOME USER
+unset INEXISTENT
+unset PATH
+unset pwd
+unset SHELL
+unset sudo
+unset TAT_A
+unset TAT-A
+unset TAT!A
+unset TAT?A
+unset TAT?A TAT.A
+unset TAT?A tata
+unset TAT.A
+unset TAT{A
+unset TAT}A
+unset TAT@
+unset TAT*A
+unset TAT\\\\A
+unset TAT\~A
+unset TAT#A
+unset TAT^A
+unset TAT+A
+unset TAT=A
+unset TAT$?A
+unset tata TAT?A
+unset tata_
+unset tata=
+unset tata9
+unset unset
+unset WRONGVAR

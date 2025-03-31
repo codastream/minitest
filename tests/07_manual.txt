@@ -1,0 +1,39 @@
+############################################## builtins
+export
+env
+/bin/env
+env env
+env env env env env
+env ./Makefile
+env ls
+env tata
+env tata que tal
+echo      \n tata
+export
+export $DONTEXIST
+export tata=bon()jour
+export tata=bon(jour
+export HO\\\\LA=bonjour
+export | grep "HOME"
+
+############################################## vars
+echo $'42$"HOME"'
+echo $"42$'HOME'"
+# ne fonctionne pas dans le testeur?
+echo $USER_$USER
+
+############################################## commands
+# sur bash renvoie 126
+/root/bin/no_perms
+printf 'Hello World'
+./minishell
+
+############################################## redirs
+< ./files/badperm.txt < ./files/infile.txt cat -e
+# loop
+<"./test_files/file name with spaces" cat
+
+############################################## pipes
+wrongcmd | echo 'abc'
+printf 'Hello World' | cat -
+echo 'cat Makefile | cat > $USER'
