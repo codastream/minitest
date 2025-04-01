@@ -384,6 +384,8 @@ void	fill_test_files(char **test_files, char **av)
 		test_files[0] = "tests/04_redirs.txt";
 	else if (!ft_strcmp("pipes", av[1]))
 		test_files[0] = "tests/05_pipes.txt";
+	else if (!ft_strcmp("wildcard", av[1]))
+		test_files[0] = "tests/07_bonus_wildcard.txt";
 }
 
 void	fill_all_test_files(char **test_files)
@@ -396,6 +398,7 @@ void	fill_all_test_files(char **test_files)
 	test_files[5] = "tests/05_pipes.txt";
 	test_files[6] = "tests/02_dollars.txt";
 	test_files[7] = "tests/02_quotes.txt";
+	test_files[8] = "tests/07_bonus_wildcard.txt";
 }
 
 int main(int ac, char **av)
