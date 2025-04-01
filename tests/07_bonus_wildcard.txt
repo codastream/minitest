@@ -1,12 +1,11 @@
 cd *h
-m
 echo *
-echo '*'
-echo *t
+	echo '*'
+	echo *t
+echo tata*tata *
 echo *t tata
 echo *Z
 echo D*
-echo tata*tata *
 echo $tata*
 echo $*
 echo $HOME*

@@ -1,6 +1,10 @@
 # Prerequisites
 *.d
 
+files
+outfiles
+1
+
 # Object files
 *.o
 *.ko
